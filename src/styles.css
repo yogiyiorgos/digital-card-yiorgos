@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.info-section {
+  background-color: #1a1b21;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.info-section > h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  text-align: center;
+  padding-top: 21px;
+}
+
+.info-section > h2 {
+  color: #f3bf99;
+  padding-top: 7px;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+}
+
+.button-row {
+  padding: 20px;
+}
+
+.info-section > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+}
+
+.about-section {
+  max-width: 317px;
+  background-color: #1a1b21;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.about-section > h2 {
+  text-align: left;
+  color: #f5f5f5;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.about-section > p {
+  text-align: left;
+  color: #dcdcdc;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+}
+
+.interests-section {
+  max-width: 317px;
+  background-color: #1a1b21;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.interests-section > h2 {
+  text-align: left;
+  color: #f5f5f5;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.interests-section > p {
+  text-align: left;
+  color: #dcdcdc;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+}
+
+footer {
+  background-color: #161619;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+footer > img {
+  background: #918e9b;
+  width: 25px;
+  height: 25px;
+}
