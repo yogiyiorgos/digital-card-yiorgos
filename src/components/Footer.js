@@ -6,12 +6,20 @@ function Footer() {
   return (
     <footer>
       <button>
-        <a href='https://github.com/yogiyiorgos'>
+        <a
+          href='https://github.com/yogiyiorgos'
+          target='_blank'
+          rel='noreferrer'
+        >
           <img src={githubIcon} alt='GitHub logo' />
         </a>
       </button>
       <button>
-        <a href='https://twitter.com/YogiYiorgos'>
+        <a
+          href='https://twitter.com/YogiYiorgos'
+          target='_blank'
+          rel='noreferrer'
+        >
           <img src={twitterIcon} alt='Twitter logo' />
         </a>
       </button>

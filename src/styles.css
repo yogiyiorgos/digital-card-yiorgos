@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #23252c;
+}
+
 .info-section {
   background-color: #1a1b21;
   font-family: 'Inter', sans-serif;
@@ -19,7 +26,7 @@
 .info-section > h1 {
   color: #ffffff;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 27px;
   line-height: 31px;
   text-align: center;
   padding-top: 21px;
@@ -29,7 +36,7 @@
   color: #f3bf99;
   padding-top: 7px;
   font-weight: 400;
-  font-size: 12.8px;
+  font-size: 14.8px;
   line-height: 15px;
 }
 
@@ -57,16 +64,18 @@
   text-align: left;
   color: #f5f5f5;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 150%;
+  padding-left: 8px;
 }
 
 .about-section > p {
   text-align: left;
   color: #dcdcdc;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 150%;
+  padding-left: 8px;
 }
 
 .interests-section {
@@ -74,28 +83,34 @@
   background-color: #1a1b21;
   font-family: 'Inter', sans-serif;
   text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .interests-section > h2 {
   text-align: left;
   color: #f5f5f5;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 150%;
+  padding-left: 8px;
 }
 
 .interests-section > p {
   text-align: left;
   color: #dcdcdc;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 150%;
+  padding-left: 8px;
 }
 
 footer {
   background-color: #161619;
   height: 64px;
   border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  padding: 20px;
 }
 
 footer > img {

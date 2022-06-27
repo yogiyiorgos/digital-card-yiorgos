@@ -13,7 +13,13 @@ function Info() {
           <a href='mailto:georgefil@outlook.com'>Email</a>
         </button>
         <button>
-          <a href='https://www.linkedin.com/in/george-filimegkas/'>LinkedIn</a>
+          <a
+            href='https://www.linkedin.com/in/george-filimegkas/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            LinkedIn
+          </a>
         </button>
       </div>
     </section>
